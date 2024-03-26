@@ -2,7 +2,7 @@
 
 EVERYDAY=$1
 
-if [ $EVERYDAY="SUNDAY"]
+if [ $EVERYDAY: "SUNDAY"]
 then
     echo "$EVERYDAY is holiday"
 else

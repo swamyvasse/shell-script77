@@ -8,6 +8,6 @@ echo "$PERSON2: iam fine about you $PERSON1"
 
 echo "please enter you name"
 
-raed USERNAME
+read USERNAME
 
 echo "useranme enterd :$USERNAME"

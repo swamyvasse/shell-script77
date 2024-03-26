@@ -8,4 +8,4 @@ NUMBER2=$2
 
 SUM=$((NUMBER1+NUMBER2))
 
- echo "the sum of value in two numbers are : "
+ echo "the sum of value in two numbers are : $SUM"

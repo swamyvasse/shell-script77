@@ -10,8 +10,13 @@ echo "$PERSON1 what are you doing now $PERSON2"
 NUMBER1=$1
 NUMBER2=$2
 
-SUM=${(NUMBER1+NUMBER2)}
+SUM=$((NUMBER1+NUMBER2))
 
 echo "adding two numbers: $SUM"
+
+
+PERSON=("swamy" "sam" "gopal")
+
+echo "the first person is: ${PERSON[0]}"
 
 

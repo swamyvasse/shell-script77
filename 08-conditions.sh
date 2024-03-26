@@ -1,10 +1,10 @@
 #!/bin/bash
 
-NUMBER1=$1
+EVERYDAY=$1
 
-if [ $NUMBER1 -gt 188 ]
+if [ $EVERYDAY="SUNDAY"]
 then
-    echo "$NUMBER1 is greater than 188"
+    echo "$EVERYDAY is holiday"
 else
-    echo "$NUMBER1 is not graterthan 188"
+    echo "$EVERYDAY is not holiday"
 fi
